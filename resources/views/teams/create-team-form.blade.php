@@ -14,9 +14,9 @@
             <div class="flex items-center mt-2">
                 <img class="w-12 h-12 rounded-full object-cover" src="{{ $this->user->profile_photo_url }}" alt="{{ $this->user->name }}">
 
-                <div class="ml-4 leading-tight">
+                <div class="ml-4 leading-tight dark:text-gray-200">
                     <div>{{ $this->user->name }}</div>
-                    <div class="text-gray-700 text-sm">{{ $this->user->email }}</div>
+                    <div class="text-gray-700 text-sm dark:text-gray-300">{{ $this->user->email }}</div>
                 </div>
             </div>
         </div>
