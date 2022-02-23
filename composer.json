@@ -1,7 +1,6 @@
 {
     "name": "crisvegadev/jet-dark",
-    "description": "A package",
-    "type": "package",
+    "description": "A Laravel package that add dark theme to Jetstream",
     "license": "MIT",
     "authors": [
             {
@@ -27,9 +26,7 @@
             "providers": [
                 "Crisvegadev\\JetDark\\JetDarkServiceProvider"
             ]
-        },
-        "branch-alias": {
-            "dev-master": "1.0-dev"
         }
-    }
+    },
+    "prefer-stable": true
 }
